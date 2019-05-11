@@ -10,7 +10,7 @@ class Agent:
         self.fitness = -1
 
     def __str__(self):
-        return 'String: ' + str(self.string) + 'Fitness: ' + str(self.fitness)
+        return 'String: ' + str(self.string) + ' Fitness: ' + str(self.fitness)
 
 
 in_str = None
